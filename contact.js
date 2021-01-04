@@ -7,10 +7,10 @@ const SubmitForm = (e) => {
     console.log('data');
     Email.send({ 
         Host: "smtp.gmail.com", 
-        Username: "vipul19panwar@gmail.com", 
-        Password: "betichod1999", 
+        Username: "gmail@gmail.com", 
+        Password: "enterpassword", 
         To: 'shlok.40516403218@ipu.ac.in', 
-        From: "vipu19panwar@gmail.com", 
+        From: "gmail@gmail.com", 
         Subject: "Sending Email using javascript", 
         Body: "Well that was easy!!", 
       }) 
